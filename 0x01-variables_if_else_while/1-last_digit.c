@@ -5,27 +5,30 @@
 /**
  *main - Entry point
  *
- *Description: print random number
- *Return: 0 is seccess
+ *Description: print random number and last digit 
+ *Return: always 0 is seccess
 */
 
 int main(void)
 {
 	int n;
+	int num;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n % 10 > 5)
+	num = n % 10;
+
+	if (num > 5)
 	{
-		printf("Last digit of %i is %i and is greater than 5\n", n, n % 10);
+		printf("Last digit of %i is %i and is greater than 5\n", n, num);
 	}
-	else if ( n % 10 == 0)
+	else if (num == 0)
 	{
-		printf("Last digit of %i is %i and is 0\n", n, n % 10);
+		printf("Last digit of %i is %i and is 0\n", n, num);
 	}
-	else if (n % 10 < 6 && n % 10 != 0)
+	else if (num < 6 && n % 10 != 0)
 	{
-		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, n % 10);
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, num);
 	}
 	return (0);
 }
