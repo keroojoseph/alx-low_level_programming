@@ -4,8 +4,7 @@
 
 /**
  *main - Entry point
- *
- *Description: print random number and last digit 
+ *Description: print random number and last digit
  *Return: always 0 is seccess
 */
 
