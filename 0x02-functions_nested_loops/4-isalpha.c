@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- *isalpha - function check alphabet
+ *_isalpha - function check alphabet
+ *Description: function print 1  is c alphabet other return 0
  *@c: int parameter
  *Return: 1 is c alphabet 0 is other
 */
