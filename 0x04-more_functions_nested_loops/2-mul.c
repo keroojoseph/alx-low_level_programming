@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- *mul - function mul two number
- *@a: parameter one
- *@b: parameter two
- *Retrun: a * b
+ *mul - mulitplies two integer
+ *
+ *@a: input one
+ *@b: input two
+ *
+ *Return: result muliplies integer (a * b) is seccess
 */
 
 int mul(int a, int b)
