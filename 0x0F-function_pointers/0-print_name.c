@@ -2,7 +2,7 @@
 
 /**
  *print_name - function print name
- *@name - parameter one
+ *@name: parameter one set of characyer
  *@f: function pointer
 */
 
