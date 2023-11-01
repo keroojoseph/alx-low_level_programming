@@ -23,7 +23,5 @@ char *str_concat(char *s1, char *s2)
 		strcpy(str, s1);
 		strcat(str, s2);
 	}
-	else
-		return (NULL);
 	return (str);
 }
