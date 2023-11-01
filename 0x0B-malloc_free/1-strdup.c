@@ -11,7 +11,7 @@ char *_strdup(char *str)
 	int len = strlen(str);
 	char *newstr = malloc(len + 1);
 
-	if (str == NULL)
+	if (str == NULL || newstr == 0)
 		return (NULL);
 	if (newstr != NULL)
 		strcpy(newstr, str);
